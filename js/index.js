@@ -1,65 +1,57 @@
 // Your code goes here
 
 
-//Mouseover X
+//Mouseover XX
 
 const mouseOver = document.querySelector('.btn');
 
 mouseOver.addEventListener('mouseover', function(eventObject){
-    console.log('mouse over!');
+    mouseOver.style.background = 'red';
 });
 
 //Keydown X
 
-window.addEventListener('keydown', function(event){
-    console.log('this is working!')
-} )
+// window.addEventListener('keydown', function(event){
+//     window.style.color = 'green';
+// });
 
-//Wheel X
+//Wheel XX
 const wheel = document.querySelector('.btn');
 
 wheel.addEventListener('wheel', function(event){
-    console.log('wheel!')
+    wheel.style.background = 'green';
 });
 
-//Drag/drop
+// //Drag/drop
 
-const dragDrop = document.querySelector('.btn');
+// dragDrop.addEventListener('dragdrop', function(event){
+//     console.log('dragdrop!')
+// });
 
-dragDrop.addEventListener('dragdrop', function(event){
-    console.log('dragdrop!')
-});
+//Load X
 
-//Load
-
-const load = document.querySelector('.btn');
-
-load.addEventListener('load', function(event){
+window.addEventListener('load', function(event){
     console.log('load!')
 });
 
-//Focus
+//Focus X
 
-const focus = document.querySelector('.btn');
-
-focus.addEventListener('focus', function(event){
+window.addEventListener('focus', function(event){
     console.log('focus!')
 });
 
-//Resize
+//Resize X
 
-const resize = document.querySelector('.btn');
-
-resize.addEventListener('resize', function(event){
-    console.log('resize!')
-});
+// window.addEventListener('resize', function(event){
+//     window.style.background = 'blue';
+// });
 
 //Scroll X
 
-const scroll = document.querySelector('.btn');
+const scroll = document.querySelector('.container-home');
 
 scroll.addEventListener('scroll', function(event){
-    console.log('scroll!')
+    scroll.style.background = 'purple';
 });
 
 //Select X
@@ -68,10 +60,10 @@ window.addEventListener('select', function(event){
     console.log('select!')
 } )
 
-//DoubleClick X
+//DoubleClick XX
 
 const dblclick = document.querySelector('.btn');
 
 dblclick.addEventListener('dblclick', function(event){
-    console.log('dblclick!')
+    dblclick.style.background = 'yellow'
 });
