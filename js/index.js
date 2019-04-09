@@ -1,7 +1,7 @@
 // Your code goes here
 
 
-//Mouseover
+//Mouseover X
 
 const mouseOver = document.querySelector('.btn');
 
@@ -9,71 +9,66 @@ mouseOver.addEventListener('mouseover', function(eventObject){
     console.log('mouse over!');
 });
 
-// //Keydown
+//Keydown X
 
-// const keyDown = document.querySelector('.main-navigation');
+window.addEventListener('keydown', function(event){
+    console.log('this is working!')
+} )
 
-// keyDown.addEventListener('keydown', function(event){
-//     console.log('keydown!')
-// });
+//Wheel X
+const wheel = document.querySelector('.btn');
 
-// //Wheel
+wheel.addEventListener('wheel', function(event){
+    console.log('wheel!')
+});
 
-// const wheel = document.querySelector('');
+//Drag/drop
 
-// wheel.addEventListener('wheel', function(event){
-//     console.log('wheel!')
-// });
+const dragDrop = document.querySelector('.btn');
 
-// //Drag/drop
+dragDrop.addEventListener('dragdrop', function(event){
+    console.log('dragdrop!')
+});
 
-// const dragDrop = document.querySelector('');
+//Load
 
-// dragDrop.addEventListener('dragdrop', function(event){
-//     console.log('dragdrop!')
-// });
+const load = document.querySelector('.btn');
 
-// //Load
+load.addEventListener('load', function(event){
+    console.log('load!')
+});
 
-// const load = document.querySelector('');
+//Focus
 
-// load.addEventListener('load', function(event){
-//     console.log('load!')
-// });
+const focus = document.querySelector('.btn');
 
-// //Focus
+focus.addEventListener('focus', function(event){
+    console.log('focus!')
+});
 
-// const focus = document.querySelector('');
+//Resize
 
-// focus.addEventListener('focus', function(event){
-//     console.log('focus!')
-// });
+const resize = document.querySelector('.btn');
 
-// //Resize
+resize.addEventListener('resize', function(event){
+    console.log('resize!')
+});
 
-// const resize = document.querySelector('');
+//Scroll X
 
-// resize.addEventListener('resize', function(event){
-//     console.log('resize!')
-// });
+const scroll = document.querySelector('.btn');
 
-// //Scroll
+scroll.addEventListener('scroll', function(event){
+    console.log('scroll!')
+});
 
-// const scroll = document.querySelector('');
+//Select X
 
-// scroll.addEventListener('scroll', function(event){
-//     console.log('scroll!')
-// });
+window.addEventListener('select', function(event){
+    console.log('select!')
+} )
 
-// //Select
-
-// const select = document.querySelector('');
-
-// select.addEventListener('select', function(event){
-//     console.log('select!')
-// });
-
-//DoubleClick
+//DoubleClick X
 
 const dblclick = document.querySelector('.btn');
 
