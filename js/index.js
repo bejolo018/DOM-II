@@ -9,7 +9,7 @@ mouseOver.addEventListener('mouseover', function(eventObject){
     mouseOver.style.background = 'red';
 });
 
-//Keydown X
+//Keydown XX
 
 const hide = document.querySelector('.content-section')
 
@@ -24,11 +24,11 @@ wheel.addEventListener('wheel', function(event){
     wheel.style.background = 'green';
 });
 
-// //Drag/drop
+//Drag/drop
 
-// dragDrop.addEventListener('dragdrop', function(event){
-//     console.log('dragdrop!')
-// });
+window.addEventListener('dragdrop', function(event){
+    console.log('dragdrop!')
+});
 
 //Load XX
 
@@ -44,9 +44,7 @@ window.addEventListener('focus', function(event){
     window.alert('refresh please!')
 });
 
-//Resize X
-
-
+//Resize XX
 
 window.addEventListener('resize', function(event){
     hide.style.background = 'white'
@@ -60,7 +58,7 @@ scroll.addEventListener('scroll', function(event){
    scroll.style.background = 'purple'
 });
 
-//Select X
+//Select XX
 
 window.addEventListener('select', function(event){
     console.log('select!')
@@ -72,4 +70,5 @@ const dblclick = document.querySelector('.btn');
 
 dblclick.addEventListener('dblclick', function(event){
     dblclick.style.background = 'yellow'
+    event.preventDefault
 });
